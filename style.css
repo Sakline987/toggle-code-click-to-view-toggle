@@ -1,0 +1,70 @@
+.law-section {
+    width: 90%;
+    margin: auto;
+}
+
+.law-section .low-area h3 {
+    font-size: 2.875rem;
+    line-height: 3rem;
+    padding: 2rem 0;
+    font-weight: 400;
+    text-align: center;
+    color: rgb(25, 255, 9);
+    text-decoration: underline;
+}
+
+.law-section .low-area .accordion li a.toggle {
+    margin: 0 20px;
+    font-size: 1.65rem;
+    font-weight: 500;
+    padding: 3px 0;
+    cursor: pointer;
+    width: 100%;
+    display: block;
+    color: #ff0c9e;
+    border-radius: 0.15em;
+    text-decoration: none;
+}
+
+.law-section .low-area .accordion li .inner {
+    padding-left: 3em;
+    overflow: hidden;
+    display: none;
+}
+
+.law-section .low-area .accordion li {
+    margin: 0.5em 0;
+    list-style: none;
+}
+
+.law-section .low-area .accordion li a {
+    text-decoration: none;
+
+    color: rgb(133, 88, 80);
+}
+
+.law-section .low-area .accordion li .inner .city {
+    display: flex;
+    justify-content: space-between;
+    font-size: 21px;
+}
+
+
+
+.law-section .low-area .accordion li a.toggle:before {
+    float: left !important;
+    content: "+";
+    padding-right: 5px;
+    background: rgb(12, 8, 8);
+    color: #fff;
+    padding: 0px 7px;
+    margin-right: 15px;
+    font-size: 1rem;
+    margin-top: 8px;
+}
+
+
+.law-section .low-area .accordion li a.toggle.toggleIcon:before {
+    float: left !important;
+    content: "−";
+}
