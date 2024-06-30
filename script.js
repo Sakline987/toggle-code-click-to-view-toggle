@@ -3,8 +3,8 @@
 
     $(document).ready(function () {
 
-        $('.toggle').click(function (e) {
-            e.preventDefault();
+        $('.toggle').click(function (Sakline) {
+            Sakline.preventDefault();
 
             let $this = $(this);
 
